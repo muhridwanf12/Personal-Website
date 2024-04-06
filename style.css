@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+.hamberger{
+    color: #BCD811;
+    font-size: 27px;
+    display: none;
+    align-items: center;
+}
+
+
 .navbar{
     background-color: #000000;
     position: fixed;
@@ -30,6 +38,46 @@
     gap: 3rem;
     padding-left: 30px;
 }
+
+@media only screen and (max-width: 768px){
+
+    .navbar{
+        height: auto;
+        background-color: #000000;
+        justify-content: space-between;
+    }
+
+    .navbar .logo{
+        display: flex;
+        align-items: start;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar ul.hidden{
+        display: none;
+    }
+
+    #hamberger{
+        color: #BCD811;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 20px;
+    }
+
+    
+}
+
+
+
+
+
+
 
 
 .navbar ul li a{
