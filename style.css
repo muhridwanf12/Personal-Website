@@ -74,12 +74,6 @@
 }
 
 
-
-
-
-
-
-
 .navbar ul li a{
     color: #BCD811;
     text-decoration: none;
@@ -470,4 +464,51 @@
     height: 40px;
 }
 
+
+#footer #form{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#footer #form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer #form textarea{
+    margin-right: 5px;
+}
+
+#footer #form .input-box .input-field {
+    margin: 10px;
+}
+
+#footer #form input{
+    height: 25px;
+    width: 250px;
+}
+
+#footer #form textarea{
+    margin: 10px;
+    width: 250px;
+    height: 105px;
+}
+
+#footer #form button{
+    background-color: #BCD811;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+label.error{
+    color: red;
+    display: block;
+}
 
