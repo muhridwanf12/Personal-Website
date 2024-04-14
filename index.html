@@ -12,6 +12,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
     </head>
 
     <body>
@@ -290,6 +292,23 @@
         <!--Halaman CONTACT-->
         <footer id="footer">
             <h2>Contact</h2>
+            <form action="#"  id="form">
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" name="nama" placeholder="Nama" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="number" placeholder="Nomor hp" required>
+                    </div>
+                </div>
+                <textarea name="message" cols="30" rows="10" placeholder="Pesan"></textarea>
+                <button type="submit" id="btnsubmit" value="submit" class="btn">Kirim</button>
+            </form>
+
+
             <div class="row">
                 <div class="column"><a href="#"><img id="gmail" src="assets/gmail.svg" alt="Gmail"></a></div>
                 <div class="column"><a href="#"><img id="instagram" src="assets/ig.svg" alt="Instagram"></a></div>
